@@ -1,0 +1,8 @@
+<div class="ui container">
+  <h2 class="ui center aligned header" style="margin-top: 3rem;">Apanepedia</h2>
+
+  <app-search-bar (emitter)="onEmit($event)"></app-search-bar>
+  <app-page-list *ngIf="pages.length" [pagesAria]="pages"></app-page-list>
+
+
+</div>
